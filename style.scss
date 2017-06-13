@@ -2,9 +2,11 @@ $enormous-header: 12rem;
 $huge-header: 5rem;
 $large-header: 3rem;
 $large-text: 1.4rem;
-$section-padding: 60px 0;
+$mobile-section-padding: 400px 0 60px;
+$tablet-section-padding: 600px 0 60px;
+$large-tablet-section-padding: 800px 10px 60px;
 $desktop-section-padding: 120px 0;
-$large-section-padding: 80px 0;
+$small-section-padding: 80px 0;
 
 .container {
   padding: 0 !important;
@@ -84,29 +86,32 @@ $large-section-padding: 80px 0;
 
 .project {
   display: flex;
-  padding: $section-padding;
+  padding: $mobile-section-padding;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: top;
 }
 
 .mythica {
-  background-image: url('images/mythica.jpg');
+  background-image: url('images/mythica-mobile.jpg');
+  background-color: #fff;
 }
 
 .simple-spirit {
-  background-image: url('images/simple-spirit.jpg');
+  background-image: url('images/simple-spirit-mobile.jpg');
   color: #fff;
+  background-color: #000;
 }
 
 .darba {
-  background-image: url('images/darba.jpg');
+  background-image: url('images/darba-mobile.jpg');
+  background-color: #fff;
 }
 
 .flow-feed {
-  background-image: url('images/flow-feed.jpg');
+  background-image: url('images/flow-feed-mobile.jpg');
   color: #fff;
+  background-color: #000;
 }
 
 .contact {
@@ -114,7 +119,7 @@ $large-section-padding: 80px 0;
   color: #fff;
   justify-content: center;
   text-align: center;
-  padding: $large-section-padding;
+  padding: $small-section-padding;
   p a {
     color: #fff;
   }
@@ -133,7 +138,20 @@ $large-section-padding: 80px 0;
   margin: 10px 0;
 }
 
+
 @media only screen and (min-width: 768px) {
+  .project {
+    padding: $tablet-section-padding;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .project {
+    padding: $large-tablet-section-padding;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
   .hero {
     padding: 100px 0;
     h1 {
@@ -152,6 +170,24 @@ $large-section-padding: 80px 0;
 
   .project {
     padding: $desktop-section-padding;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mythica {
+    background-image: url('images/mythica.jpg');
+  }
+
+  .simple-spirit {
+    background-image: url('images/simple-spirit.jpg');
+  }
+
+  .darba {
+    background-image: url('images/darba.jpg');
+  }
+
+  .flow-feed {
+    background-image: url('images/flow-feed.jpg');
   }
 
   .contact {
