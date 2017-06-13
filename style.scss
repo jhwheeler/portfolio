@@ -1,0 +1,161 @@
+$enormous-header: 12rem;
+$huge-header: 5rem;
+$large-header: 3rem;
+$large-text: 1.4rem;
+$section-padding: 30px 0;
+$desktop-section-padding: 80px 0;
+$large-section-padding: 50px 0;
+$large-desktop-section-padding: 120px 0;
+
+.container {
+  padding: 0 !important;
+  h2 {
+    font-size: $large-header;
+  }
+  p {
+    font-size: $large-text;
+  }
+  a {
+    font-size: $large-text;
+    color: #fff;
+  }
+}
+
+.hero {
+  background-image: url('images/hero.jpg');
+  padding: 60px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-size: $huge-header;
+  }
+  p {
+    font-size: $large-text;
+  }
+}
+
+.ext-button {
+  background: transparent;
+  border-radius: 0px;
+  transition: all .3s;
+  font-size: $large-text;
+}
+
+.ext-button__light {
+  border: 2px solid #fff;
+  color: #fff;
+  &:hover, &:focus {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+  }
+}
+
+.ext-button__dark {
+  border: 2px solid #000;
+  &:hover, &:focus {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}
+
+.intro {
+  padding: 50px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__image, .intro__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro__description {
+  margin-top: 20px;
+}
+
+.project {
+  display: flex;
+  padding: $section-padding;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mythica {
+  background-image: url('images/mythica.jpg');
+}
+
+.simple-spirit {
+  background-image: url('images/simple-spirit.jpg');
+  color: #fff;
+}
+
+.darba {
+  background-image: url('images/darba.jpg');
+}
+
+.flow-feed {
+  background-image: url('images/flow-feed.jpg');
+  color: #fff;
+}
+
+.contact {
+  background-image: url('images/hero.jpg');
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding: $large-section-padding;
+  p a {
+    color: #fff;
+  }
+  img {
+    width: 50px;
+  }
+}
+.resume {
+  margin: 20px;
+}
+
+.contact__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 100px 0;
+    h1 {
+      font-size: $enormous-header;
+    }
+  }
+
+  .intro__image {
+    justify-content: flex-end;
+  }
+
+  .intro__description {
+    text-align: left;
+    margin-right: auto;
+  }
+
+  .project {
+    padding: $desktop-section-padding;
+  }
+
+  .contact {
+    padding: $large-desktop-section-padding;
+  }
+}
+
+/* Utility Classes */
+
+.no-decoration {
+  text-decoration: none;
+}
