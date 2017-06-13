@@ -8,22 +8,6 @@
     font-size: 1.4rem;
     color: #fff; }
 
-.hero {
-  background-image: url("images/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 60px 0;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  .hero h1 {
-    font-size: 5rem; }
-  .hero p {
-    font-size: 1.4rem; }
-
 .ext-button {
   background: transparent;
   border-radius: 0px;
@@ -45,6 +29,22 @@
     border: 2px solid #fff;
     color: #fff; }
 
+.hero {
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .hero h1 {
+    font-size: 5rem; }
+  .hero p {
+    font-size: 1.4rem; }
+
 .intro {
   padding: 50px 0;
   align-items: center;
@@ -58,6 +58,18 @@
 
 .intro__description {
   margin-top: 20px; }
+
+.projects {
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; }
+  .projects h1 {
+    font-size: 3rem; }
 
 .project {
   display: flex;
@@ -132,13 +144,15 @@
     background-image: url("images/mythica.jpg"); }
 
   .simple-spirit {
-    background-image: url("images/simple-spirit.jpg"); }
+    background-image: url("images/simple-spirit.jpg");
+    background-attachment: fixed; }
 
   .darba {
     background-image: url("images/darba.jpg"); }
 
   .flow-feed {
-    background-image: url("images/flow-feed.jpg"); }
+    background-image: url("images/flow-feed.jpg");
+    background-attachment: fixed; }
 
   .contact {
     padding: 120px 0; } }

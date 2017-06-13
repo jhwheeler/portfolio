@@ -22,25 +22,6 @@ $small-section-padding: 80px 0;
   }
 }
 
-.hero {
-  background-image: url('images/hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 60px 0;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  h1 {
-    font-size: $huge-header;
-  }
-  p {
-    font-size: $large-text;
-  }
-}
-
 .ext-button {
   background: transparent;
   border-radius: 0px;
@@ -67,6 +48,25 @@ $small-section-padding: 80px 0;
   }
 }
 
+.hero {
+  background-image: url('images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-size: $huge-header;
+  }
+  p {
+    font-size: $large-text;
+  }
+}
+
 .intro {
   padding: 50px 0;
   align-items: center;
@@ -82,6 +82,20 @@ $small-section-padding: 80px 0;
 
 .intro__description {
   margin-top: 20px;
+}
+
+.projects {
+  background-image: url('images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  h1 {
+    font-size: $large-header;
+  }
 }
 
 .project {
@@ -182,6 +196,7 @@ $small-section-padding: 80px 0;
 
   .simple-spirit {
     background-image: url('images/simple-spirit.jpg');
+    background-attachment: fixed;
   }
 
   .darba {
@@ -190,6 +205,7 @@ $small-section-padding: 80px 0;
 
   .flow-feed {
     background-image: url('images/flow-feed.jpg');
+    background-attachment: fixed;
   }
 
   .contact {
