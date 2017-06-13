@@ -1,0 +1,120 @@
+.container {
+  padding: 0 !important; }
+  .container h2 {
+    font-size: 3rem; }
+  .container p {
+    font-size: 1.4rem; }
+  .container a {
+    font-size: 1.4rem;
+    color: #fff; }
+
+.hero {
+  background-image: url("images/hero.jpg");
+  padding: 60px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .hero h1 {
+    font-size: 5rem; }
+  .hero p {
+    font-size: 1.4rem; }
+
+.ext-button {
+  background: transparent;
+  border-radius: 0px;
+  transition: all .3s;
+  font-size: 1.4rem; }
+
+.ext-button__light {
+  border: 2px solid #fff;
+  color: #fff; }
+  .ext-button__light:hover, .ext-button__light:focus {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000; }
+
+.ext-button__dark {
+  border: 2px solid #000; }
+  .ext-button__dark:hover, .ext-button__dark:focus {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff; }
+
+.intro {
+  padding: 50px 0;
+  align-items: center;
+  justify-content: center; }
+
+.intro__image, .intro__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.intro__description {
+  margin-top: 20px; }
+
+.project {
+  display: flex;
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mythica {
+  background-image: url("images/mythica.jpg"); }
+
+.simple-spirit {
+  background-image: url("images/simple-spirit.jpg");
+  color: #fff; }
+
+.darba {
+  background-image: url("images/darba.jpg"); }
+
+.flow-feed {
+  background-image: url("images/flow-feed.jpg");
+  color: #fff; }
+
+.contact {
+  background-image: url("images/hero.jpg");
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0; }
+  .contact p a {
+    color: #fff; }
+  .contact img {
+    width: 50px; }
+
+.resume {
+  margin: 20px; }
+
+.contact__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; }
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 100px 0; }
+    .hero h1 {
+      font-size: 12rem; }
+
+  .intro__image {
+    justify-content: flex-end; }
+
+  .intro__description {
+    text-align: left;
+    margin-right: auto; }
+
+  .project {
+    padding: 80px 0; }
+
+  .contact {
+    padding: 120px 0; } }
+/* Utility Classes */
+.no-decoration {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
