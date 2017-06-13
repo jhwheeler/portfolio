@@ -98,6 +98,7 @@
 
 .contact {
   background-image: url("images/hero.jpg");
+  background-attachment: fixed;
   color: #fff;
   justify-content: center;
   text-align: center;
@@ -155,7 +156,8 @@
     background-attachment: fixed; }
 
   .contact {
-    padding: 120px 0; } }
+    padding: 120px 0;
+    background-attachment: scroll; } }
 /* Utility Classes */
 .no-decoration {
   text-decoration: none; }

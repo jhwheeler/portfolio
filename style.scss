@@ -130,6 +130,7 @@ $small-section-padding: 80px 0;
 
 .contact {
   background-image: url('images/hero.jpg');
+  background-attachment: fixed;
   color: #fff;
   justify-content: center;
   text-align: center;
@@ -210,6 +211,7 @@ $small-section-padding: 80px 0;
 
   .contact {
     padding: $desktop-section-padding;
+    background-attachment: scroll;
   }
 }
 
