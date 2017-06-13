@@ -108,14 +108,14 @@
   .project {
     padding: 600px 0 60px; } }
 @media only screen and (min-width: 768px) {
-  .project {
-    padding: 800px 10px 60px; } }
-@media only screen and (min-width: 1280px) {
   .hero {
-    padding: 100px 0; }
+    padding: 120px 0; }
     .hero h1 {
       font-size: 12rem; }
 
+  .project {
+    padding: 800px 10px 60px; } }
+@media only screen and (min-width: 1280px) {
   .intro__image {
     justify-content: flex-end; }
 

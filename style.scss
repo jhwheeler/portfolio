@@ -146,6 +146,12 @@ $small-section-padding: 80px 0;
 }
 
 @media only screen and (min-width: 768px) {
+  .hero {
+    padding: $desktop-section-padding;
+    h1 {
+      font-size: $enormous-header;
+    }
+  }
   .project {
     padding: $large-tablet-section-padding;
   }
@@ -153,10 +159,6 @@ $small-section-padding: 80px 0;
 
 @media only screen and (min-width: 1280px) {
   .hero {
-    padding: 100px 0;
-    h1 {
-      font-size: $enormous-header;
-    }
   }
 
   .intro__image {
