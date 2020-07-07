@@ -84,50 +84,6 @@ $small-section-padding: 80px 0;
   margin-top: 20px;
 }
 
-.projects {
-  background-image: url('images/hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  h1 {
-    font-size: $large-header;
-  }
-}
-
-.project {
-  display: flex;
-  padding: $mobile-section-padding;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: top;
-}
-
-.mythica {
-  background-image: url('images/mythica-mobile.jpg');
-  background-color: #fff;
-}
-
-.simple-spirit {
-  background-image: url('images/simple-spirit-mobile.jpg');
-  color: #fff;
-  background-color: #000;
-}
-
-.darba {
-  background-image: url('images/darba-mobile.jpg');
-  background-color: #fff;
-}
-
-.flow-feed {
-  background-image: url('images/flow-feed-mobile.jpg');
-  color: #fff;
-  background-color: #000;
-}
-
 .contact {
   background-image: url('images/hero.jpg');
   background-attachment: fixed;
@@ -142,8 +98,12 @@ $small-section-padding: 80px 0;
     width: 50px;
   }
 }
-.resume {
-  margin: 20px;
+
+.contact__links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .contact__link {
@@ -155,27 +115,19 @@ $small-section-padding: 80px 0;
 
 
 @media only screen and (min-width: 768px) {
-  .project {
-    padding: $tablet-section-padding;
-  }
-}
-
-@media only screen and (min-width: 768px) {
   .hero {
     padding: $desktop-section-padding;
     h1 {
       font-size: $enormous-header;
     }
   }
-  .project {
-    padding: $large-tablet-section-padding;
+
+  .contact__links {
+    width: 80%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero {
-  }
-
   .intro__image {
     justify-content: flex-end;
   }
@@ -183,30 +135,6 @@ $small-section-padding: 80px 0;
   .intro__description {
     text-align: left;
     margin-right: auto;
-  }
-
-  .project {
-    padding: $desktop-section-padding;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .mythica {
-    background-image: url('images/mythica.jpg');
-  }
-
-  .simple-spirit {
-    background-image: url('images/simple-spirit.jpg');
-    background-attachment: fixed;
-  }
-
-  .darba {
-    background-image: url('images/darba.jpg');
-  }
-
-  .flow-feed {
-    background-image: url('images/flow-feed.jpg');
-    background-attachment: fixed;
   }
 
   .contact {
